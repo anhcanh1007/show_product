@@ -1,0 +1,19 @@
+@use "sass:map";
+@import 'style/pages/_theme.scss';
+
+.footer {
+    .footer__about {
+        color: map.get($theme-colors);
+        .footer__about_logo {
+
+        }
+
+        ul {
+
+            li {
+                list-style: none;
+                color: ;
+            }
+        }
+    }
+}

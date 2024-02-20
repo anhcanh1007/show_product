@@ -1,0 +1,14 @@
+.header__top{
+    background-color: #CFD7A4;
+}
+
+.header__top_right {
+    display: flex;
+    justify-content: end;
+
+    ul {
+        display: flex;
+        column-gap: 10px;
+        list-style: none;
+    }
+}

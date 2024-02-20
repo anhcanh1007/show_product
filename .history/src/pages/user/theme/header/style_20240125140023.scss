@@ -1,0 +1,31 @@
+@use "sass:map";
+@import 'style/pages/_theme.scss';
+.header__top{
+    background-color: #CFD7A4;
+}
+
+.header__top_right {
+    display: flex;
+    justify-content: end;
+    padding: 10px 0 10px;
+
+    ul {
+        display: flex;
+        column-gap: 5px;
+        list-style: none;
+
+        li:last-child{
+            ml10p
+            span {
+                font-size: 14px;
+                margin-left: 2px;
+            }
+        }
+
+        a {
+            font-size: 14px;
+            display: inline-block;
+            color: map.get($theme-colors, "normal_text");;
+        }
+    }
+}

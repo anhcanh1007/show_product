@@ -1,0 +1,15 @@
+.header__top{
+    background-color: #CFD7A4;
+}
+
+.header__top_right {
+    background-color: red;
+    display: flex;
+    justify-content: end;
+
+    ul {
+        display: flex;
+        column-gap: 10px;
+        
+    }
+}

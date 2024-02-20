@@ -1,0 +1,22 @@
+@use "sass:map";
+@import 'style/pages/_theme.scss';
+
+.footer {
+    background: #F3F6FA;
+    padding-top: 70px;
+    .footer__about {
+        
+
+        .footer__about_logo {
+
+        }
+
+        ul {
+
+            li {
+                list-style: none;
+                color: map.get($theme-colors, 'normal_text');
+            }
+        }
+    }
+}

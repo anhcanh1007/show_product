@@ -1,0 +1,21 @@
+@use "sass:map";
+@import 'style/pages/_theme.scss';
+
+.categories__banner {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    .categories__banner_img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    p {
+        text-align: left;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
